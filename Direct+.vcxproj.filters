@@ -18,5 +18,11 @@
     <ClCompile Include="Direct+.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="target.dp" />
   </ItemGroup>
 </Project>

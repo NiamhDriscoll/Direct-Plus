@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Direct+.cpp" />
+    <ClCompile Include="setup.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="target.dp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
