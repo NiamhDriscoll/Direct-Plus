@@ -36,15 +36,15 @@ int main() {
 					args += source[pos];
 					pos++;
 				}
-				pos++;
+					pos++;
 					while (pos < source.length() && (isalnum(source[pos])) || source[pos] == ' ') {
-						args2 += source[pos];
-						pos++;
+					args2 += source[pos];
+					pos++;
 
-						if (!isalnum(source[pos])) {
-							if (token == "paste")
-								std::cout << args;
-						}
+					}
+					if (token == "paste")
+						std::cout << args2;
+						
 					
                     
 				}
@@ -54,4 +54,4 @@ int main() {
 		}
 
 	}
-}
+

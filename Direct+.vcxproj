@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="commands.cpp" />
     <ClCompile Include="Direct+.cpp" />
     <ClCompile Include="setup.cpp" />
   </ItemGroup>
